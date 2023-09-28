@@ -1,0 +1,63 @@
+/* GENERAL STYLES */
+:root {
+  --content-ff: 'Poppins', sans-serif;
+  --title-ff: 'Righteous', cursive;
+  
+  --content-fs: 2em;
+  --title-fs: 3.3em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+main {
+  font-size: 0.625rem;
+  padding: 2em;
+}
+
+section {
+  padding: 1em 0;  
+}
+
+ul {
+  padding: 0 1em;
+}
+
+li,
+figcaption {
+  padding: 0.5em 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section > *,
+a {
+  font-size: var(--content-fs);
+  font-family: var(--content-ff);
+}
+
+h1 {
+  font-size: var(--title-fs);
+  font-family: var(--title-ff);
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+
+/* MORE SPECIFIC STYLES */
+
+#img-div {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
