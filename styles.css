@@ -13,10 +13,18 @@
   padding: 0;
 
 }
-
+body {
+  width: 100%;
+}
 main {
   font-size: 0.625rem;
   padding: 2em;
+  
+  @media (min-width: 768px) {
+    width: 80%;
+  max-width: 768px;
+  margin-inline: auto;
+  }
 }
 
 section {
