@@ -25,6 +25,10 @@ main {
   margin-inline: auto;
   font-size: 0.625rem;
   padding: 2em;
+
+  @media (600px) {
+    width: 95%;
+  }
 }
 
 section {
