@@ -26,7 +26,7 @@ main {
   font-size: 0.625rem;
   padding: 2em;
 
-  @media (600px) {
+  @media (max-width: 600px) {
     width: 95%;
   }
 }
