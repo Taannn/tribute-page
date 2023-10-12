@@ -2,7 +2,7 @@
 :root {
   --content-ff: 'Poppins', sans-serif;
   --title-ff: 'Righteous', cursive;
-  
+
   --content-fs: 2em;
   --title-fs: 3.3em;
 }
@@ -17,22 +17,20 @@
 body {
   width: 100vw;
   height: 100vh;
+
 }
 
 main {
-  width: 80%;
+  width: 100%;
   max-width: 750px;
   margin-inline: auto;
   font-size: 0.625rem;
-  padding: 2em;
+  padding: 1.1rem;
 
-  @media (max-width: 600px) {
-    width: 95%;
-  }
 }
 
 section {
-  padding: 1em 0;  
+  padding: 1em 0;
 }
 
 ul {
