@@ -1,2 +1,4 @@
-# tribute-page
-freeCodeCamp RWD cert-project #2
+# freeCodeCamp Responsive Web Design Certification Project #2
+
+## Screenshot
+![Example Image](./live-view.png)
